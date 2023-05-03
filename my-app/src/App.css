@@ -1,0 +1,332 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.App img{
+    width: 51cm;
+    height: 11cm;
+}
+.App{ 
+    text-align: center;
+}
+.Title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.Title p {
+    color: rgb(255, 255, 255);
+    margin-top: 0cm;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Title{
+    position: absolute;
+    left: 38%;
+    top: 2cm;
+}
+.Box{
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(35, 55, 80, 0.445) 0px 6px 12px;
+    width: 37cm;
+    height: 8.5cm;
+    position: absolute;
+    left: 14.5%;
+    top: 6cm;
+
+}
+
+@media (max-width: 574px) {
+    body{
+    }
+    .Box{
+        
+    }
+  }
+  
+.Inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3cm;
+}
+.Inputs .Amount input{
+    width: 6cm;
+    padding: 14px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;
+}
+
+.Inputs .From input{
+    width: 7cm;
+    padding: 14px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;
+    border-right: none;
+    
+}
+.Inputs .To input{
+    width: 7.6cm;
+    padding: 14px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;
+    border-right:none ;
+}
+input:focus {
+    outline: none !important;
+}
+.SwapIcon{
+    margin-top: 1.4cm;
+    color: rgb(83, 160, 248);
+    border-radius: 50%;
+    border: 1px solid  rgb(221, 221, 221);
+    padding: 0.8ch;
+    font-weight: 800;
+}
+.Inputs p{
+    font-weight: 700;
+    font-size: 17px;
+}
+.CurrencyIcon{
+    margin-right: 34.5cm;
+    margin-top: 1ch;
+    padding: 0.5ch;
+    border-radius: 50%;
+    padding: 0.8ch;
+    border: 1px solid rgb(221, 221, 221);
+
+}
+.Box button{
+    position: absolute;
+    top: 70%;
+    right: 1.6cm;
+    background: rgb(0, 113, 235);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 700;
+}
+.Box button:hover{
+    position: absolute;
+    top: 70%;
+    right: 1.6cm;
+    border: 2px solid rgb(0, 113, 235);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    background-color:  #2293fd;
+    border: none;
+    font-weight: 700;
+
+}
+.DownIcon{
+    position: absolute;
+    margin-top: 0.01ch;
+    left: 19.3cm;
+    gap: 0cm;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 0.74ch;
+    border-left: none;
+    border-radius: 6px;
+
+}
+.Currencyes{
+    display: none;
+    position: absolute;
+    left: 31.8%;
+    top: 4.6cm;
+    width: 8.7CM;
+    height: 10cm;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(35, 55, 80, 0.226) 0px 6px 12px;
+}
+.CurrencyesDisplayed{
+    position: absolute;
+    left: 31.8%;
+    top: 4.6cm;
+    width: 8.7CM;
+    height: 10cm;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(35, 55, 80, 0.226) 0px 6px 12px;
+}
+.CurrencyesDisplayed .USA img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.CurrencyesDisplayed .USA {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.CurrencyesDisplayed .USA:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+.CurrencyesDisplayed .EU img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.CurrencyesDisplayed .EU {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.CurrencyesDisplayed .EU:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+.CurrencyesDisplayed .IQD  img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.CurrencyesDisplayed .IQD {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.CurrencyesDisplayed .IQD:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+
+.ToDownIcon{
+    position: absolute;
+    margin-top: 0.01ch;
+    left: 34.2cm;
+    gap: 0cm;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 0.74ch;
+    border-left: none;
+    border-radius: 6px;
+}
+.ToCurrencyes{
+    display: none;
+    position: absolute;
+    left: 40.8%;
+    top: 4.6cm;
+    width: 8.7CM;
+    height: 10cm;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.999);
+    box-shadow: rgba(35, 55, 80, 0.226) 0px 6px 12px;
+}
+.ToCurrencyesDisplayed{
+    position: absolute;
+    left: 72.2%;
+    top: 4.6cm;
+    width: 8.7CM;
+    height: 10cm;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(35, 49, 80, 0.226) 0px 6px 12px;
+    z-index: 5400;
+}
+.ToCurrencyesDisplayed .USA img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.ToCurrencyesDisplayed .USA {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.ToCurrencyesDisplayed .USA:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+.ToCurrencyesDisplayed .EU img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.ToCurrencyesDisplayed .EU {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.ToCurrencyesDisplayed .EU:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+.ToCurrencyesDisplayed .IQD img{
+    width: 28px;
+    height: 17px;
+    padding-right: 2ch;
+    padding-left: 5ch;
+}
+.ToCurrencyesDisplayed .IQD {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+}
+.ToCurrencyesDisplayed .IQD:hover{
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+    margin-left: 0ch;
+    background-color: rgba(240, 248, 255, 0.422);
+}
+
+.ResultInput{
+    position: absolute;
+    left: 2cm;
+    top: 5.5cm;
+    padding: 3ch;
+    border: none;
+    border-radius: 10px;
+outline: none;
+display: none;
+
+}
+.ResultInput:focus{
+border: none;
+outline: none;
+}
+.Box h2{
+    position: absolute;
+    top: 4.5cm;
+    left: 2cm;
+}
+.Box h5{
+    position: absolute;
+    top: 5.5cm;
+    left: 2cm;
+}
